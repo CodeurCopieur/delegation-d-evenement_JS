@@ -1,0 +1,38 @@
+*, ::before, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid {
+  border: 2px solid #fff;
+  margin: 0 auto 5rem;
+  background: red;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid > * {
+  border: 1px solid #000;
+  height: 100px;
+  width: 200px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-info {
+  color: #fff;
+  margin: 0 auto;
+}/*# sourceMappingURL=index.css.map */
